@@ -14,8 +14,6 @@ public class Palindrome {
 			num = num / 10;
 		}
 		
-		System.out.println(temp+ " " +x);
-		
 		if (temp == x)
 			return true;
 		return false;
